@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.30)  2 FEB 2015 19:14
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.30)  3 FEB 2015 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1095,18 +1095,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 16.
- [3] (./rubybook.aux)
+ [3]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 48.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [4] [5] [6] [7]
+[8] (./rubybook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16109 strings out of 495649
- 328223 string characters out of 6187651
- 378667 words of memory out of 5000000
- 19017 multiletter control sequences out of 15000+600000
- 8668 words of font info for 87 fonts, out of 8000000 for 9000
+ 16182 strings out of 495649
+ 329565 string characters out of 6187651
+ 380667 words of memory out of 5000000
+ 19084 multiletter control sequences out of 15000+600000
+ 8684 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 53i,8n,47p,10449b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,8n,47p,10449b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on rubybook.pdf (3 pages).
+Output written on rubybook.pdf (8 pages).
