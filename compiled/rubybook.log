@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.30)  4 FEB 2015 19:45
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.30)  5 FEB 2015 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1102,7 +1102,7 @@ LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 48.
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [4] [5] [6] [7]
-[8] [9] [10] [11] [12] [13] (./rubybook.aux)
+[8] [9] [10] [11] [12] [13] [14] (./rubybook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1110,10 +1110,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  16214 strings out of 495649
  329996 string characters out of 6187651
- 381667 words of memory out of 5000000
+ 382667 words of memory out of 5000000
  19116 multiletter control sequences out of 15000+600000
  8684 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,8n,47p,10449b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on rubybook.pdf (13 pages).
+Output written on rubybook.pdf (14 pages).

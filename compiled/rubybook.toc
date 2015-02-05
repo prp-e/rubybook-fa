@@ -15,7 +15,7 @@
 \contentsline {subsubsection}{\numberline {2‏.‏4‏.‏4}اجرای اسکریپت با استفاده از اجازه ها}{7}
 \contentsline {subsection}{\numberline {2‏.‏5}جمع بندی}{7}
 \contentsline {subsection}{\numberline {2‏.‏6}تمرینات}{8}
-\contentsline {section}{\numberline {3}انواع داده و متغیرها}{9}
+\contentsline {section}{\numberline {3}انواع داده ها و متغیرها، ثابت ها و عملگرها}{9}
 \contentsline {subsection}{\numberline {3‏.‏1}در این فصل چه فرا خواهید گرفت؟}{9}
 \contentsline {subsection}{\numberline {3‏.‏2}داده های عددی}{9}
 \contentsline {subsubsection}{\numberline {3‏.‏2‏.‏1}اعداد صحیح}{9}
@@ -27,5 +27,7 @@
 \contentsline {subsection}{\numberline {3‏.‏5}آرایه ها و هش ها}{12}
 \contentsline {subsection}{\numberline {3‏.‏6}تعریف متغیرها}{12}
 \contentsline {subsubsection}{\numberline {3‏.‏6‏.‏1}تبدیل نوع متغیر ها}{13}
-\contentsline {subsection}{\numberline {3‏.‏7}جمع بندی}{13}
-\contentsline {subsection}{\numberline {3‏.‏8}تمرینات}{13}
+\contentsline {subsection}{\numberline {3‏.‏7}عملگرها}{13}
+\contentsline {subsection}{\numberline {3‏.‏8}ثابت ها}{14}
+\contentsline {subsection}{\numberline {3‏.‏9}جمع بندی}{14}
+\contentsline {subsection}{\numberline {3‏.‏10}تمرینات}{14}
