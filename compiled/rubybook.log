@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.30)  7 FEB 2015 20:09
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.30)  12 FEB 2015 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1102,27 +1102,24 @@ LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 48.
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [5] [6] [7] [8]
-[9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
-Overfull \hbox (30.915pt too wide) in paragraph at lines 624--624
+[9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
+Overfull \hbox (30.915pt too wide) in paragraph at lines 656--656
 []\EU1/lmtt/m/n/10.95 salam = { :en => "Hello" , :es => "Hola", :eo => "Saluton
 ", :pt => "Ola"}[] 
  []
 
-[21] [22] [23] (./rubybook.aux)
+[22] [23] [24] (./rubybook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 16234 strings out of 495649
- 330260 string characters out of 6187651
+ 16240 strings out of 495649
+ 330341 string characters out of 6187651
  382667 words of memory out of 5000000
- 19136 multiletter control sequences out of 15000+600000
+ 19142 multiletter control sequences out of 15000+600000
  8684 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,8n,47p,10449b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on rubybook.pdf (23 pages).
+Output written on rubybook.pdf (24 pages).
