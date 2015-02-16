@@ -917,4 +917,276 @@ irb(main):036:0>
 را نمایش دهد.
 \end{enumerate}
 \newpage{}
+\section{حلقه های تکرار}
+در فصول پیش، مفاهیمی که برای کار با روبی لازم بود را فرا گرفتید. اکنون نوبتی هم باشد، نوبت حلقه های تکرار است. بدون شک هر زبان برنامه نویسی ساخت یافته ای، یا حلقه های تکرار را در خود جای داده یا اینکه راهی برای پیاده سازی آنها، برای برنامه نویس فراهم کرده است.حلقه های تکرار، میتوانند در هنگامی که نیاز است در خروجی، تعداد زیادی متغیر را چاپ کنیم، هنگامی که در ورودی چندین اسم دریافت کنیم و ... کاربرد فراوانی دارند. روبی هم یک زبان کامل و مدرن است، طبیعی است تا حلقه های تکرار در روبی را فرا نگیرید، نمیتوانید برنامه های مورد نظرتان را به خوبی پیاده کنید. 
+\subsection{در این فصل چه فراخواهید گرفت؟}
+\begin{itemize}
+\item استفاده از حلقه while
+\item استفاده از حلقه for
+\item استفاده از حلقه until
+\end{itemize}
+\subsection{حلقه while}
+این حلقه، پرکاربرد ترین حلقه در روبی است. در واقع، این حلقه همان عملکرد while در سایر زبان ها را دارد. عملکرد کلی این حلقه، به این شکل است که یک شرط درست را دریافت کرده، تا زمانی برنامه را ادامه میدهد که شرط غلط شود. پیاده سازی این حلقه در روبی بسیار آسان است. فقط کافیست متغیری که در نظر دارید را از قبل تعریف نموده، سپس شرطی ایجاد کنید و بعد مقدار متغیر را درون حلقه دستخوش تغییر کنید. بیایید با یک دیگر اعداد صفر تا ده را روی صفحه چاپ کنیم :
+\begin{latin}
+\begin{verbatim}
+n = 0
+while n <= 10
+puts n
+n += 1
+end
+\end{verbatim}
+\end{latin}
+پس از اجرای این کد در محیط تعاملی چنین نتیجه ای را شاهد هستیم :
+\begin{latin}
+\begin{verbatim}
+irb(main):004:0> n = 0
+=> 0
+irb(main):005:0> while n <= 10
+irb(main):006:1>    puts n
+irb(main):007:1>    n += 1
+irb(main):008:1> end
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+=> nil
+irb(main):009:0> 
+\end{verbatim}
+\end{latin}
+ابتدا به مفسر، گفته می شود مقدار صفر را برای n لحاظ کند. سپس ، آن را چاپ کرده، یک واحد به آن بیافزاید. حلقه چک میکند که مقدار n با شرط همخوانی دارد یا نه. وقتی مقدار n به ۱۰ میرسد، حلقه قطع می شود، چرا که مقدار بعدی با شرط ما همخوانی ندارد. 
+\subsubsection{مثال کاربردی تر از حلقه while}
+این مثال، مثال بهتری است، چرا که تا حدود زیادی، عملیاتی است. فرض کنیم شما معلمی هستید که ۱۵ دانش آموز دارد. حالا میخواهید نمرات دانش آموزان را وارد یک آرایه کنید. بیایید کدی بنویسیم که این کار را برای ما انجام دهد :
+\begin{latin}
+\begin{verbatim}
+n = 1
+scores = []
+while n <= 15
+print "Enter student #{n}'s score: "
+score = gets.chomp
+scores[n] = score.to_i
+n += 1
+end
+\end{verbatim}
+\end{latin}
+بیاید این قطعه کد را درون محیط تعاملی، اجرا کنیم، و نتیجه را ببینیم :
+\begin{latin}
+\begin{verbatim}
+irb(main):013:0> while n <= 15
+irb(main):014:1>  print "Enter student #{n}'s score: "
+irb(main):015:1>  score = gets.chomp
+irb(main):016:1>  scores[n] = score.to_i
+irb(main):017:1>  n += 1
+irb(main):018:1> end
+Enter student 1's score: 20
+Enter student 2's score: 18
+Enter student 3's score: 14
+Enter student 4's score: 15
+Enter student 5's score: 18
+Enter student 6's score: 18.5
+Enter student 7's score: 20
+Enter student 8's score: 12.25
+Enter student 9's score: 14
+Enter student 10's score: 20
+Enter student 11's score: 12
+Enter student 12's score: 10
+Enter student 13's score: 8.5
+Enter student 14's score: 14
+Enter student 15's score: 20
+=> nil
+irb(main):019:0> 
+\end{verbatim}
+\end{latin}
+همانطور که مشخص است، ابتدا یک prompt به کاربر نشان داده می شود، و سپس یکی یکی نمرات دانش آموزان خواسته می شود، و نمرات به عضویت یک آرایه در می آیند. در این بخش :
+\begin{latin}
+\begin{verbatim}
+irb(main):015:1>  score = gets.chomp
+irb(main):016:1>  scores[n] = score.to_i
+\end{verbatim}
+\end{latin}
+چون عملیات gets ورودی را به صورت رشته دریافت میکند، آن را به عدد صحیح تبدیل کرده و درون آرایه ریخته ایم (توجه کنید که نمراتی مانند ۱۲/۲۵ و ... هم به عدد صحیح تبدیل شده اند!). 
+\subsubsection{حلقه بی نهایت}
+حلقه ای که شرط همیشه درست دریافت کند، تا بی نهایت ادامه دارد و تنها با کلید های ترکیبی 
+\lr{Ctrl + C}
+میتوان متوقف کرد، یا دستوراتی تعریف کرد که با دریافت یک ورودی خاص، حلقه را متوقف کنند. مثلا، حلقه ای که مجموع تعداد نامعلومی عدد را حساب میکند :
+\begin{latin}
+\begin{verbatim}
+while n != 0
+ n = gets.chomp
+ n = n.to_i
+ n += m
+end
+\end{verbatim}
+\end{latin}
+برای مثال، حلقه بالا میگوید تا موقعی که متغیر n مخالف صفر است حلقه ادامه یابد، و چون متغیر درون خود حلقه به عنوان ورودی استفاده شده است، وقتی کاربر مقدار صفر را وارد کند حلقه تمام می شود. مثال بالا، به قدر کافی کاربردی نیست. بیایید رابط خط فرمان
+\LTRfootnote{Command Line Interface a.k.a CLI}
+را با روبی بازسازی کنیم :
+\begin{latin}
+\begin{verbatim}
+while true
+ print ">> "
+ cmd = gets.chomp
+ system cmd
+end
+\end{verbatim}
+\end{latin}
+اکنون برنامه را اجرا کرده و چندین دستور مربوط به خط فرمان سیستم عامل لینوکس را اجرا میکنم :
+\begin{latin}
+\begin{verbatim}
+irb(main):001:0> while true
+irb(main):002:1>  print ">> "
+irb(main):003:1>  cmd = gets.chomp
+irb(main):004:1>  system cmd
+irb(main):005:1> end
+>> uname -srm
+Linux 3.13.0-37-generic x86_64
+>> uptime
+ 20:43:41 up 4 days, 23:30,  2 users,  load average: 1.18, 1.06, 0.97
+>> echo 'Hello, World'
+Hello, World
+>> uname 
+Linux
+>> sudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-u user] file ...
+>> exit
+>> exit
+>> ^CIRB::Abort: abort then interrupt!
+	from (irb):3:in `call'
+	from (irb):3:in `gets'
+	from (irb):3:in `gets'
+	from (irb):3
+	from /usr/bin/irb:12:in `<main>'
+irb(main):006:0>
+\end{verbatim}
+\end{latin}
+همانگونه که دیدید ، با استفاده از تابع کتابخانه ای system تعدادی ورودی را درون خط فرمان لینوکس اجرا نمودیم. حالا نوبتی هم باشد، نوبت توضیح کد است. این کد، یک حلقه بی نهایت را نشان میدهد، که یک prompt چاپ میکند و از کاربر ورودی میخواهد، کاربر دستوری را تایپ میکند که به شکل یک رشته، به داخل cmd رفته و سپس cmd را به عنوان ورودی به system میدهد. این دستور در آخر با Ctrl-C متوقف شده است.این برنامه میتواند تمرین خوبی برای طراحی ابزارهای کاربردی باشد. 
+\subsection{حلقه until}
+این حلقه، بر خلاف حلقه while ، یک شرط غلط را به عنوان ورودی دریافت کرده، سپس حلقه را تا جایی ادامه میدهد که شرط درست شود. برای این که کدی با این حلقه بنویسیم، بیایید از آرایه ای به نام scores که در بخش قبل ایجاد کردیم، را با استفاده از این حلقه، چاپ کنیم. 
+\begin{latin}
+\begin{verbatim}
+n = 1
+until n == scores.length
+ puts scores[n]
+ n += 1
+end
+\end{verbatim}
+\end{latin}
+نتیجه اجرای این کد :
+\begin{latin}
+\begin{verbatim}
+irb(main):008:0> n = 1
+=> 1
+irb(main):009:0> until n == scores.length
+irb(main):010:1>  puts scores[n]
+irb(main):011:1>  n += 1
+irb(main):012:1> end
+20
+18
+14
+15
+18
+18
+20
+12
+14
+20
+12
+10
+8
+14
+20
+=> nil
+irb(main):013:0>
+\end{verbatim}
+\end{latin}
+همانگونه که مشاهده میکنید، تمامی اعضا چاپ شده اند و اعضایی که خرده داشتند، به عدد صحیح تبدیل شده اند. تنها تفاوت while و until در این است که while یک شرط درست را تا غلط شدن ادامه میدهد، و until یک شرط غلط را تا درست شدن. 
+\subsubsection{حلقه بی نهایت با until}
+این حلقه، برخلاف while مقادیر true را نمیتواند پذیرا باشد. پس سولوشن مناسب برای ایجاد حلقه بی نهایت و نوشتن برنامه خط فرمان استفاده از مقدار false است. پس به این شکل برنامه را باز نویسی میکنیم :
+\begin{latin}
+\begin{verbatim}
+until false
+ print ">> "
+ cmd = gets.chomp
+ system cmd
+end
+\end{verbatim}
+\end{latin}
+اجرای این برنامه نیز بر عهده خودتان، به عنوان یک تمرین خوب. 
+\subsection{حلقه for}
+اگر با زبانی مانند C آشنا باشید، قطعا میدانید که حلقه for در آن زبانها، به نوعی یک while تعمیم یافته است. اما در روبی این طور نیست. در روبی، حلقه for برای کار با داده های از نوع رنج و ... به کار می رود. بیایید چاپ اعداد صفر تا ده را با استفاده از حلقه for بررسی کنیم. 
+\begin{latin}
+\begin{verbatim}
+for i in 0..10
+ puts i
+end
+\end{verbatim}
+\end{latin}
+نتیجه اجرای این دستور چنین است :
+\begin{latin}
+\begin{verbatim}
+irb(main):016:0> for i in 1..10
+irb(main):017:1>  puts i
+irb(main):018:1> end
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+=> 1..10
+irb(main):019:0>
+\end{verbatim}
+\end{latin}
+اصول کار حلقه for در روبی این است که متغیری که به عنوان ورودی دریافت کرده است (اینجا i ) را یکی یکی با اعضای آرایه یا رنج ورودی برابر قرار میدهد. 
+\subsubsection{استفاده از each به جای for}
+یک بار دیگر، بخش آرایه ها و هش ها را مطالعه کنید. آنجا با استفاده از دستور each ، اعضای یک هش را چاپ نمودیم. اکنون، اینجا دوباره آن را بررسی میکنیم. برای امتحان دوباره کد زیر را وارد کنید :
+\begin{latin}
+\begin{verbatim}
+dic = {1 => "One", 2 => "Two", 3 => "Three", 4 => "Four", 5 => "Five"}
+dic.each{|x, y| puts "#{x} : #{y}"}
+\end{verbatim}
+\end{latin}
+حاصل اجرای دستور فوق در محیط تعاملی باید چنین باشد :
+\begin{latin}
+\begin{verbatim}
+irb(main):027:0> dic = {1 => "One" , 2 => "Two", 3 => "Three", 4 => "Four", 5 => "Five"}
+=> {1=>"One", 2=>"Two", 3=>"Three", 4=>"Four", 5=>"Five"}
+irb(main):028:0> dic.each{|x, y| puts "#{x} : #{y}"}
+1 : One
+2 : Two
+3 : Three
+4 : Four
+5 : Five
+=> {1=>"One", 2=>"Two", 3=>"Three", 4=>"Four", 5=>"Five"}
+irb(main):029:0>
+\end{verbatim}
+\end{latin}
+در واقع دستور each نوع خیلی سفارشی شده for برای آرایه ها و هش ها به شمار می آید. 
+\subsection{جمع بندی}
+در این فصل، با مباحث پیچیده و پیشرفته ای روبرو شدید. این فصل مقدمه بسیار خوبی برای فصول بعدی است که قرار است در مورد توابع و کلاس ها صحبت شود. در واقع با استفاده از این فصل، شما میتوانید برنامه هایی بنویسید که کاربردی تر از پیش هستند. در این فصل، دیدید که چقدر ساده می توانید با یک حلقه بی نهایت، عملیات خط فرمان لینوکس را شبیه سازی کنید، یا لیستی از نمرات دانش آموزان خود تهیه کنید. با استفاده از نکات این فصل، درک مفاهیم فصول بعدی برایتان بسیار آسان تر خواهد بود. 
+\subsection{تمرینات}
+\begin{enumerate}
+\item برنامه ای بنویسید که در یک آرایه، نام دانش آموزان و در آرایه دیگر نمرات آنان را دریافت کند. سپس برنامه ای بنویسید که نام و نمرات آنان را با یک تب (۴ فاصله) فاصله از هم چاپ کند.
+\item برنامه ای بنویسید که یک کلید دریافت کرده، آن را با خط بعدی که معنای کلمه کلیدی است، در یک هش قرار دهد. سپس آنها را لغت نامه وار چاپ کند.
+\item حروف نام خود را به صورت وارونه چاپ کنید. 
+\end{enumerate}
+\newpage{}
+
 \end{document}

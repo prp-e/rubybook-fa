@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.30)  12 FEB 2015 15:58
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.30)  16 FEB 2015 21:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1114,18 +1114,54 @@ Overfull \hbox (27.08247pt too wide) in paragraph at lines 844--844
 andard inputs"[] 
  []
 
-[28] [29] [30] (./rubybook.aux)
+[28] [29] [30] [31] [32] [33]
+Overfull \hbox (9.83624pt too wide) in paragraph at lines 1073--1073
+[] \EU1/lmtt/m/n/10.95 20:43:41 up 4 days, 23:30,  2 users,  load average: 1.18
+, 1.06, 0.97[] 
+ []
+
+
+Overfull \hbox (46.24498pt too wide) in paragraph at lines 1073--1073
+[]\EU1/lmtt/m/n/10.95 usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [
+-U user] [-u user][] 
+ []
+
+
+Overfull \hbox (57.74248pt too wide) in paragraph at lines 1073--1073
+[]\EU1/lmtt/m/n/10.95 usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g 
+group] [-h host] [-p[] 
+ []
+
+
+Overfull \hbox (50.07748pt too wide) in paragraph at lines 1073--1073
+[]\EU1/lmtt/m/n/10.95 usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g g
+roup] [-h host] [-p[] 
+ []
+
+[34] [35] [36]
+Overfull \hbox (11.7525pt too wide) in paragraph at lines 1164--1164
+[]\EU1/lmtt/m/n/10.95 dic = {1 => "One", 2 => "Two", 3 => "Three", 4 => "Four",
+ 5 => "Five"}[] 
+ []
+
+
+Overfull \hbox (111.39749pt too wide) in paragraph at lines 1179--1179
+[]\EU1/lmtt/m/n/10.95 irb(main):027:0> dic = {1 => "One" , 2 => "Two", 3 => "Th
+ree", 4 => "Four", 5 => "Five"}[] 
+ []
+
+[37] [38] (./rubybook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16244 strings out of 495649
- 330393 string characters out of 6187651
+ 16248 strings out of 495649
+ 330445 string characters out of 6187651
  382667 words of memory out of 5000000
- 19146 multiletter control sequences out of 15000+600000
+ 19150 multiletter control sequences out of 15000+600000
  8684 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,8n,47p,10449b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on rubybook.pdf (30 pages).
+Output written on rubybook.pdf (38 pages).
