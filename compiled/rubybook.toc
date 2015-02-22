@@ -1,71 +1,81 @@
-\contentsline {section}{\numberline {1}مقدمه}{4}
-\contentsline {subsection}{\numberline {1‏.‏1}این کتاب برای چه کسانی است؟}{4}
-\contentsline {subsection}{\numberline {1‏.‏2}آیا میتوانیم این کتاب را به اشتراک بگذاریم؟}{4}
-\contentsline {subsection}{\numberline {1‏.‏3}چگونه این کتاب را بخوانیم؟}{4}
-\contentsline {section}{\numberline {2}پایه ها و مقدمات یادگیری روبی}{5}
-\contentsline {subsection}{\numberline {2‏.‏1}نصب روبی}{5}
-\contentsline {subsubsection}{\numberline {2‏.‏1‏.‏1}وبسایت روبی}{5}
-\contentsline {subsubsection}{\numberline {2‏.‏1‏.‏2}نصب از مخازن}{5}
-\contentsline {subsection}{\numberline {2‏.‏2}استفاده از محیط تعاملی}{6}
-\contentsline {subsection}{\numberline {2‏.‏3}چند دستور در محیط تعاملی}{6}
-\contentsline {subsection}{\numberline {2‏.‏4}نوشتن اسکریپت در یک فایل}{7}
-\contentsline {subsubsection}{\numberline {2‏.‏4‏.‏1}انتخاب ویرایشگر}{7}
-\contentsline {subsubsection}{\numberline {2‏.‏4‏.‏2}پسوند فایل های روبی}{7}
-\contentsline {subsubsection}{\numberline {2‏.‏4‏.‏3}نوشتن و اجرای اسکریپت از طریق مفسر}{7}
-\contentsline {subsubsection}{\numberline {2‏.‏4‏.‏4}اجرای اسکریپت با استفاده از اجازه ها}{8}
-\contentsline {subsection}{\numberline {2‏.‏5}جمع بندی}{8}
-\contentsline {subsection}{\numberline {2‏.‏6}تمرینات}{9}
-\contentsline {section}{\numberline {3}انواع داده ها و متغیرها، ثابت ها و عملگرها}{10}
-\contentsline {subsection}{\numberline {3‏.‏1}در این فصل چه فرا خواهید گرفت؟}{10}
-\contentsline {subsection}{\numberline {3‏.‏2}داده های عددی}{10}
-\contentsline {subsubsection}{\numberline {3‏.‏2‏.‏1}اعداد صحیح}{10}
-\contentsline {subsubsection}{\numberline {3‏.‏2‏.‏2}اعداد ممیز شناور}{11}
-\contentsline {subsubsection}{\numberline {3‏.‏2‏.‏3}اعداد باینری}{11}
-\contentsline {subsubsection}{\numberline {3‏.‏2‏.‏4}اعداد اوکتال}{12}
-\contentsline {subsubsection}{\numberline {3‏.‏2‏.‏5}اعداد هگزادسیمال}{13}
-\contentsline {subsection}{\numberline {3‏.‏3}متغیرهای بولین}{13}
-\contentsline {subsection}{\numberline {3‏.‏4}متغیر های رشته ای}{14}
-\contentsline {subsection}{\numberline {3‏.‏5}آرایه ها و هش ها}{14}
-\contentsline {subsection}{\numberline {3‏.‏6}تعریف متغیرها}{14}
-\contentsline {subsubsection}{\numberline {3‏.‏6‏.‏1}تبدیل نوع متغیر ها}{14}
-\contentsline {subsection}{\numberline {3‏.‏7}عملگرها}{15}
-\contentsline {subsection}{\numberline {3‏.‏8}ثابت ها}{15}
-\contentsline {subsection}{\numberline {3‏.‏9}جمع بندی}{16}
-\contentsline {subsection}{\numberline {3‏.‏10}تمرینات}{16}
-\contentsline {section}{\numberline {4}آرایه ها و هش ها}{17}
-\contentsline {subsection}{\numberline {4‏.‏1}در این فصل چه فراخواهید گرفت؟}{17}
-\contentsline {subsection}{\numberline {4‏.‏2}آرایه ها}{17}
-\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏1}متد length}{17}
-\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏2}متد reverse}{18}
-\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏3}مرتب کردن آرایه}{18}
-\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏4}نمایه اعضای آرایه}{19}
-\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏5}اضافه کردن اعضا به آرایه}{20}
-\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏6}جایگزین کردن اعضای آرایه}{21}
-\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏7}نکات مهم}{21}
-\contentsline {subsection}{\numberline {4‏.‏3}چندتایی ها}{22}
-\contentsline {subsection}{\numberline {4‏.‏4}هش ها}{22}
-\contentsline {subsubsection}{\numberline {4‏.‏4‏.‏1}ایجاد یک هش جدید}{22}
-\contentsline {subsubsection}{\numberline {4‏.‏4‏.‏2}ویرایش هش ها}{22}
-\contentsline {subsubsection}{\numberline {4‏.‏4‏.‏3}مرتب کردن هش}{23}
-\contentsline {subsubsection}{\numberline {4‏.‏4‏.‏4}چاپ کردن اعضای یک هش}{23}
-\contentsline {subsection}{\numberline {4‏.‏5}جمع بندی}{23}
-\contentsline {subsection}{\numberline {4‏.‏6}تمرینات}{24}
-\contentsline {section}{\numberline {5}ساختارهای کنترلی}{25}
-\contentsline {subsection}{\numberline {5‏.‏1}در این فصل چه فرا خواهید گرفت؟}{25}
-\contentsline {subsection}{\numberline {5‏.‏2}آشنایی با دستور if }{25}
-\contentsline {subsection}{\numberline {5‏.‏3}آشنایی با دستور else}{26}
-\contentsline {subsection}{\numberline {5‏.‏4}آشنایی با elsif و به کارگیری همزمان چند شرط}{27}
-\contentsline {subsection}{\numberline {5‏.‏5}استفاده از case برای بررسی چندین شرط}{28}
-\contentsline {subsection}{\numberline {5‏.‏6}جمع بندی}{30}
-\contentsline {subsection}{\numberline {5‏.‏7}تمرینات}{30}
-\contentsline {section}{\numberline {6}حلقه های تکرار}{31}
-\contentsline {subsection}{\numberline {6‏.‏1}در این فصل چه فراخواهید گرفت؟}{31}
-\contentsline {subsection}{\numberline {6‏.‏2}حلقه while}{31}
-\contentsline {subsubsection}{\numberline {6‏.‏2‏.‏1}مثال کاربردی تر از حلقه while}{32}
-\contentsline {subsubsection}{\numberline {6‏.‏2‏.‏2}حلقه بی نهایت}{33}
-\contentsline {subsection}{\numberline {6‏.‏3}حلقه until}{35}
-\contentsline {subsubsection}{\numberline {6‏.‏3‏.‏1}حلقه بی نهایت با until}{36}
-\contentsline {subsection}{\numberline {6‏.‏4}حلقه for}{36}
-\contentsline {subsubsection}{\numberline {6‏.‏4‏.‏1}استفاده از each به جای for}{37}
-\contentsline {subsection}{\numberline {6‏.‏5}جمع بندی}{38}
-\contentsline {subsection}{\numberline {6‏.‏6}تمرینات}{38}
+\contentsline {section}{\numberline {1}مقدمه}{5}
+\contentsline {subsection}{\numberline {1‏.‏1}این کتاب برای چه کسانی است؟}{5}
+\contentsline {subsection}{\numberline {1‏.‏2}آیا میتوانیم این کتاب را به اشتراک بگذاریم؟}{5}
+\contentsline {subsection}{\numberline {1‏.‏3}چگونه این کتاب را بخوانیم؟}{5}
+\contentsline {section}{\numberline {2}پایه ها و مقدمات یادگیری روبی}{6}
+\contentsline {subsection}{\numberline {2‏.‏1}نصب روبی}{6}
+\contentsline {subsubsection}{\numberline {2‏.‏1‏.‏1}وبسایت روبی}{6}
+\contentsline {subsubsection}{\numberline {2‏.‏1‏.‏2}نصب از مخازن}{6}
+\contentsline {subsection}{\numberline {2‏.‏2}استفاده از محیط تعاملی}{7}
+\contentsline {subsection}{\numberline {2‏.‏3}چند دستور در محیط تعاملی}{7}
+\contentsline {subsection}{\numberline {2‏.‏4}نوشتن اسکریپت در یک فایل}{8}
+\contentsline {subsubsection}{\numberline {2‏.‏4‏.‏1}انتخاب ویرایشگر}{8}
+\contentsline {subsubsection}{\numberline {2‏.‏4‏.‏2}پسوند فایل های روبی}{8}
+\contentsline {subsubsection}{\numberline {2‏.‏4‏.‏3}نوشتن و اجرای اسکریپت از طریق مفسر}{8}
+\contentsline {subsubsection}{\numberline {2‏.‏4‏.‏4}اجرای اسکریپت با استفاده از اجازه ها}{9}
+\contentsline {subsection}{\numberline {2‏.‏5}جمع بندی}{9}
+\contentsline {subsection}{\numberline {2‏.‏6}تمرینات}{10}
+\contentsline {section}{\numberline {3}انواع داده ها و متغیرها، ثابت ها و عملگرها}{11}
+\contentsline {subsection}{\numberline {3‏.‏1}در این فصل چه فرا خواهید گرفت؟}{11}
+\contentsline {subsection}{\numberline {3‏.‏2}داده های عددی}{11}
+\contentsline {subsubsection}{\numberline {3‏.‏2‏.‏1}اعداد صحیح}{11}
+\contentsline {subsubsection}{\numberline {3‏.‏2‏.‏2}اعداد ممیز شناور}{12}
+\contentsline {subsubsection}{\numberline {3‏.‏2‏.‏3}اعداد باینری}{12}
+\contentsline {subsubsection}{\numberline {3‏.‏2‏.‏4}اعداد اوکتال}{13}
+\contentsline {subsubsection}{\numberline {3‏.‏2‏.‏5}اعداد هگزادسیمال}{14}
+\contentsline {subsection}{\numberline {3‏.‏3}متغیرهای بولین}{14}
+\contentsline {subsection}{\numberline {3‏.‏4}متغیر های رشته ای}{15}
+\contentsline {subsection}{\numberline {3‏.‏5}آرایه ها و هش ها}{15}
+\contentsline {subsection}{\numberline {3‏.‏6}تعریف متغیرها}{15}
+\contentsline {subsubsection}{\numberline {3‏.‏6‏.‏1}تبدیل نوع متغیر ها}{15}
+\contentsline {subsection}{\numberline {3‏.‏7}عملگرها}{16}
+\contentsline {subsection}{\numberline {3‏.‏8}ثابت ها}{16}
+\contentsline {subsection}{\numberline {3‏.‏9}جمع بندی}{17}
+\contentsline {subsection}{\numberline {3‏.‏10}تمرینات}{17}
+\contentsline {section}{\numberline {4}آرایه ها و هش ها}{18}
+\contentsline {subsection}{\numberline {4‏.‏1}در این فصل چه فراخواهید گرفت؟}{18}
+\contentsline {subsection}{\numberline {4‏.‏2}آرایه ها}{18}
+\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏1}متد length}{18}
+\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏2}متد reverse}{19}
+\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏3}مرتب کردن آرایه}{19}
+\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏4}نمایه اعضای آرایه}{20}
+\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏5}اضافه کردن اعضا به آرایه}{21}
+\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏6}جایگزین کردن اعضای آرایه}{22}
+\contentsline {subsubsection}{\numberline {4‏.‏2‏.‏7}نکات مهم}{22}
+\contentsline {subsection}{\numberline {4‏.‏3}چندتایی ها}{23}
+\contentsline {subsection}{\numberline {4‏.‏4}هش ها}{23}
+\contentsline {subsubsection}{\numberline {4‏.‏4‏.‏1}ایجاد یک هش جدید}{23}
+\contentsline {subsubsection}{\numberline {4‏.‏4‏.‏2}ویرایش هش ها}{23}
+\contentsline {subsubsection}{\numberline {4‏.‏4‏.‏3}مرتب کردن هش}{24}
+\contentsline {subsubsection}{\numberline {4‏.‏4‏.‏4}چاپ کردن اعضای یک هش}{24}
+\contentsline {subsection}{\numberline {4‏.‏5}جمع بندی}{24}
+\contentsline {subsection}{\numberline {4‏.‏6}تمرینات}{25}
+\contentsline {section}{\numberline {5}ساختارهای کنترلی}{26}
+\contentsline {subsection}{\numberline {5‏.‏1}در این فصل چه فرا خواهید گرفت؟}{26}
+\contentsline {subsection}{\numberline {5‏.‏2}آشنایی با دستور if }{26}
+\contentsline {subsection}{\numberline {5‏.‏3}آشنایی با دستور else}{27}
+\contentsline {subsection}{\numberline {5‏.‏4}آشنایی با elsif و به کارگیری همزمان چند شرط}{28}
+\contentsline {subsection}{\numberline {5‏.‏5}استفاده از case برای بررسی چندین شرط}{29}
+\contentsline {subsection}{\numberline {5‏.‏6}جمع بندی}{31}
+\contentsline {subsection}{\numberline {5‏.‏7}تمرینات}{31}
+\contentsline {section}{\numberline {6}حلقه های تکرار}{32}
+\contentsline {subsection}{\numberline {6‏.‏1}در این فصل چه فراخواهید گرفت؟}{32}
+\contentsline {subsection}{\numberline {6‏.‏2}حلقه while}{32}
+\contentsline {subsubsection}{\numberline {6‏.‏2‏.‏1}مثال کاربردی تر از حلقه while}{33}
+\contentsline {subsubsection}{\numberline {6‏.‏2‏.‏2}حلقه بی نهایت}{34}
+\contentsline {subsection}{\numberline {6‏.‏3}حلقه until}{36}
+\contentsline {subsubsection}{\numberline {6‏.‏3‏.‏1}حلقه بی نهایت با until}{37}
+\contentsline {subsection}{\numberline {6‏.‏4}حلقه for}{37}
+\contentsline {subsubsection}{\numberline {6‏.‏4‏.‏1}استفاده از each به جای for}{38}
+\contentsline {subsection}{\numberline {6‏.‏5}جمع بندی}{39}
+\contentsline {subsection}{\numberline {6‏.‏6}تمرینات}{39}
+\contentsline {section}{\numberline {7}توابع}{40}
+\contentsline {subsection}{\numberline {7‏.‏1}در این فصل چه فراخواهید گرفت؟}{40}
+\contentsline {subsection}{\numberline {7‏.‏2}مفهوم تابع}{40}
+\contentsline {subsection}{\numberline {7‏.‏3}تعریف تابع در روبی}{40}
+\contentsline {subsection}{\numberline {7‏.‏4}تابع خالی}{40}
+\contentsline {subsection}{\numberline {7‏.‏5}تابع ساده}{41}
+\contentsline {subsection}{\numberline {7‏.‏6}تابع بازگشتی}{43}
+\contentsline {subsection}{\numberline {7‏.‏7}توابع تو در تو}{44}
+\contentsline {subsection}{\numberline {7‏.‏8}جمع بندی}{45}
+\contentsline {subsection}{\numberline {7‏.‏9}تمرینات}{45}
