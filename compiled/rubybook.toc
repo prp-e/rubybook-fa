@@ -79,3 +79,21 @@
 \contentsline {subsection}{\numberline {7‏.‏7}توابع تو در تو}{44}
 \contentsline {subsection}{\numberline {7‏.‏8}جمع بندی}{45}
 \contentsline {subsection}{\numberline {7‏.‏9}تمرینات}{45}
+\contentsline {section}{\numberline {8}کلاس ها و شی گرایی}{47}
+\contentsline {subsection}{\numberline {8‏.‏1}در این فصل چه فراخواهید گرفت؟}{47}
+\contentsline {subsection}{\numberline {8‏.‏2}آشنایی با شی گرایی}{47}
+\contentsline {subsection}{\numberline {8‏.‏3}آشنایی با مفهوم انتزاع}{48}
+\contentsline {subsection}{\numberline {8‏.‏4}آشنایی با وراثت}{48}
+\contentsline {subsection}{\numberline {8‏.‏5}آشنایی با چندشکلی}{48}
+\contentsline {subsection}{\numberline {8‏.‏6}آشنایی با کپسوله سازی}{48}
+\contentsline {subsection}{\numberline {8‏.‏7}پیاده سازی کلاس ها و اشیاء}{49}
+\contentsline {subsection}{\numberline {8‏.‏8}شی گرایی در روبی}{49}
+\contentsline {subsection}{\numberline {8‏.‏9}پیاده سازی کلاس ها در روبی}{50}
+\contentsline {subsubsection}{\numberline {8‏.‏9‏.‏1}استفاده از ماژول ها درون کلاس}{52}
+\contentsline {subsubsection}{\numberline {8‏.‏9‏.‏2}مفاهیم شی گرایی به صورت عملی}{52}
+\contentsline {subsubsection}{\numberline {8‏.‏9‏.‏3}انتزاع}{52}
+\contentsline {subsubsection}{\numberline {8‏.‏9‏.‏4}چندریختی و ارث بری}{52}
+\contentsline {subsubsection}{\numberline {8‏.‏9‏.‏5}کپسوله سازی}{53}
+\contentsline {subsection}{\numberline {8‏.‏10}کاربرد ها}{53}
+\contentsline {subsection}{\numberline {8‏.‏11}سخن آخر}{53}
+\contentsline {subsection}{\numberline {8‏.‏12}تمرینات}{54}

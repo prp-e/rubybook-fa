@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.30)  22 FEB 2015 20:58
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.30)  27 FEB 2015 18:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1153,21 +1153,19 @@ ree", 4 => "Four", 5 => "Five"}[]
 [38] [39] [40] [41] [42]
 Missing character: There is no ‍ in font Ubuntu/OT:script=latn;language=DFLT;ma
 pping=tex-text;!
- [43] [44] [45] [46] (./rubybook.aux)
+ [43] [44] [45] [46] [47] [48] [49] [50] [51] [52]
+[53] [54] (./rubybook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 16260 strings out of 495649
- 330605 string characters out of 6187651
+ 16294 strings out of 495649
+ 331093 string characters out of 6187651
  383667 words of memory out of 5000000
- 19162 multiletter control sequences out of 15000+600000
+ 19196 multiletter control sequences out of 15000+600000
  8684 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,8n,47p,10449b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on rubybook.pdf (46 pages).
+Output written on rubybook.pdf (54 pages).
