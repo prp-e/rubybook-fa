@@ -1,0 +1,3 @@
+CONST_INT = 2
+CONST_FLOAT = 3.0
+CONST_STRING = "Hello, World"
