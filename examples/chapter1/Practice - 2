@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+puts "STUDENT 1"
+puts "STUDENT 2"
+puts "STUDENT 3"
+puts "STUDENT 4"
+puts "STUDENT 5"
+puts "STUDENT 6"
+puts "STUDENT 7"
+puts "STUDENT 8"
+puts "STUDENT 9"
+puts "STUDENT 10"
+puts "STUDENT 11"
+puts "STUDENT 12"
+puts "STUDENT 13"
+puts "STUDENT 14"
+puts "STUDENT 15"
