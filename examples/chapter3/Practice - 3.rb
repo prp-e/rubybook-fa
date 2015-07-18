@@ -1,0 +1,1 @@
+names = {:a => ["Ali", "Ahmad"], :b => ["Bahram", "Behrooz"], :m => ["Muhammadreza", "Mani"]}
